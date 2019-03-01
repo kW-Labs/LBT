@@ -1,0 +1,217 @@
+.custom-checkbox{
+    padding:5px;
+}
+
+.pretty {
+    font-size: 17px;
+}
+
+
+
+@media (min-width: 768px) {
+    .modal-fullscreen .modal-dialog {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .modal-fullscreen .modal-dialog {
+        width: 970px;
+    }
+}
+@media (min-width: 1160px) {
+    .modal-fullscreen .modal-dialog {
+        width: 1170px;
+    }
+}
+
+.slider-card {
+    padding: 16px;
+
+}
+
+
+/*******************************************************
+Sizes
+*******************************************************/
+.checkbox-slider-sm {
+    line-height: 10px;
+}
+.checkbox-slider-sm input + span {
+    padding-left: 16px;
+}
+.checkbox-slider-sm input + span:before {
+    width: 16px;
+}
+.checkbox-slider-sm input + span:after,
+.checkbox-slider-sm input + span:before {
+    height: 10px;
+    line-height: 10px;
+}
+.checkbox-slider-sm input + span:after {
+    width: 10px;
+    vertical-align: middle;
+}
+.checkbox-slider-sm input:checked + span:after {
+    margin-left: 10px;
+}
+.checkbox-slider-md {
+    line-height: 30px;
+}
+.checkbox-slider-md input + span {
+    padding-left: 60px;
+}
+.checkbox-slider-md input + span:before {
+    width: 60px;
+}
+.checkbox-slider-md input + span:after,
+.checkbox-slider-md input + span:before {
+    height: 30px;
+    line-height: 30px;
+}
+.checkbox-slider-md input + span:after {
+    width: 30px;
+    vertical-align: middle;
+}
+.checkbox-slider-md input:checked + span:after {
+    margin-left: 30px;
+}
+.checkbox-slider-lg {
+    line-height: 40px;
+}
+.checkbox-slider-lg input + span {
+    padding-left: 80px;
+}
+.checkbox-slider-lg input + span:before {
+    width: 80px;
+}
+.checkbox-slider-lg input + span:after,
+.checkbox-slider-lg input + span:before {
+    height: 40px;
+    line-height: 40px;
+}
+.checkbox-slider-lg input + span:after {
+    width: 40px;
+    vertical-align: middle;
+}
+.checkbox-slider-lg input:checked + span:after {
+    margin-left: 40px;
+}
+
+
+/*** Yes / NO ***/
+.yes_no_toggle {
+    background-color: #F1F1F1;
+    border: 1px solid #DDD;
+    width: 90px;
+    border-radius: 2em;
+    padding: 3px;
+    margin: 0 50px;
+    position: relative;
+    height: 34px;
+}
+.yes_no_toggle span {
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+}
+.yes_no_toggle span.yes_span {
+    left: -39px;
+}
+.yes_no_toggle span.no_span {
+    left: 95px;
+}
+.yes_no_toggle .toggle_icon {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}
+.yes_no_toggle .toggle_icon.happy {
+    margin-left: 2px;
+    float: left;
+    font-size:16px;
+    margin-top:2px;
+}
+.yes_no_toggle .toggle_icon.happy.selected {
+    color: #39BF3F;
+    font-size:16px;
+    margin-top:2px;
+}
+.yes_no_toggle .toggle_icon.sad {
+    margin-right: 2px;
+    float: right;
+    font-size:16px;
+    margin-top:2px;
+}
+.yes_no_toggle .toggle_icon.sad.selected {
+    color: #BF002D;
+    font-size:16px;
+    margin-top:2px;
+}
+.yes_no_toggle .toggle {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+.yes_no_toggle .toggle.happy {
+    background-color: rgba(57, 191, 63, 0.5);
+}
+.yes_no_toggle .toggle.sad {
+    background-color: rgba(191, 0, 45, 0.3);
+}
+.yes_no_toggle .clearfix {
+    clear: both;
+    float: none;
+}
+
+.yes_no_wrap {
+    display: none;
+}
+
+.clear {
+    margin-top: 9px;
+    font-size:16px;
+    color: lightslategrey;
+    text-transform: lowercase;
+    margin-right: 20%;
+}
+
+
+.noUi-horizontal .noUi-handle {
+    width: 24px;
+    height: 18px;
+    left: -17px;
+    top: -2px;
+}
+
+.noUi-handle:before {
+    top: 4px;
+    height: 9px;
+}
+.noUi-handle:after {
+    left: 10px;
+    top: 4px;
+    height: 9px;
+}
+
+.noUi-horizontal {
+    height: 14px;
+}
+
+#lab_notice{
+    color:darkred;
+    font-weight: 500;
+    font-size: smaller;
+}
